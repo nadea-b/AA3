@@ -10,6 +10,7 @@ def multiply(matrix1, matrix2):
                 result[i][j] += matrix1[i][k] * matrix2[k][j]
     return result
 
+
 def power(matrix, n):
     result = [[1, 0], [0, 1]]  # Identity matrix
     while n > 0:
@@ -19,10 +20,11 @@ def power(matrix, n):
         n //= 2
     return result
 
+
 def fibonacci_matrix(n):
     base_matrix = [[1, 1], [1, 0]]
     result_matrix = power(base_matrix, n)
-    return result_matrix[0][1]  # Extracting the Fibonacci number from the matrix
+    return result_matrix[0][1]
 
 
 # Given list of terms
