@@ -45,7 +45,7 @@ print()
 
 # Plot the values only for the last set of results
 plt.figure(figsize=(10, 6))
-plt.plot(term_list, time_list, marker='o', linestyle='-', color='lightgreeno')
+plt.plot(term_list, time_list, marker='o', linestyle='-', color='lightgreen')
 plt.title('Time Taken to Calculate Fibonacci Value')
 plt.xlabel('Term')
 plt.ylabel('Time Taken (s)')
