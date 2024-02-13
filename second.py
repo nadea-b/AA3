@@ -21,7 +21,7 @@ def fibonacci_dynamic(n):
 
 
 # Given list of terms
-terms = [501, 631, 794, 1000, 1259, 1585, 1995, 2512, 3162, 3981, 5012, 6310, 7943, 10000, 12589, 15849]
+terms = [501, 631, 794, 1000, 1259, 1585, 1995, 2512, 3162, 3981, 5012, 6310, 7943, 10000, 12589, 15849, 20897]
 
 
 # Lists to store terms and corresponding time taken
