@@ -20,7 +20,7 @@ def quick_sort(arr, low, high):
 
 # Generate arrays of different dimensions
 random.seed(42)
-array_sizes = [1000, 10000, 100000, 500000, 1000000]
+array_sizes = [1000, 5000, 10000, 50000, 100000, 500000, 1000000]
 arrays = []
 
 for size in array_sizes:

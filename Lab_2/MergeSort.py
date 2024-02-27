@@ -50,7 +50,7 @@ def merge_sort(arr):
 
 # Generate arrays of different dimensions
 random.seed(42)
-array_sizes = [1000, 10000, 100000, 500000, 1000000]
+array_sizes = [1000, 5000, 10000, 50000, 100000, 500000, 1000000]
 arrays = []
 
 for size in array_sizes:
@@ -76,7 +76,7 @@ for arr in arrays:
 
 # Output time taken for each array
 for size, quick_sort_time, merge_sort_time in zip(array_sizes, quick_sort_times, merge_sort_times):
-    print(f"Time taken to sort {size} elements using Quick Sort: {quick_sort_time:.6f} seconds")
+   # print(f"Time taken to sort {size} elements using Quick Sort: {quick_sort_time:.6f} seconds")
     print(f"Time taken to sort {size} elements using Merge Sort: {merge_sort_time:.6f} seconds")
 
 # Plotting

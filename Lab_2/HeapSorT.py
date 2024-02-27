@@ -48,6 +48,7 @@ def merge_sort(arr):
             j += 1
             k += 1
 
+
 def heapify(arr, n, i):
     largest = i
     l = 2 * i + 1
@@ -63,6 +64,7 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
+
 def heap_sort(arr):
     n = len(arr)
 
@@ -72,6 +74,7 @@ def heap_sort(arr):
     for i in range(n - 1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
+
 
 # Generate arrays of different dimensions
 random.seed(42)
@@ -110,8 +113,8 @@ for arr in arrays:
 
 # Output time taken for each array
 for size, quick_sort_time, merge_sort_time, heap_sort_time in zip(array_sizes, quick_sort_times, merge_sort_times, heap_sort_times):
-    print(f"Time taken to sort {size} elements using Quick Sort: {quick_sort_time:.6f} seconds")
-    print(f"Time taken to sort {size} elements using Merge Sort: {merge_sort_time:.6f} seconds")
+   # print(f"Time taken to sort {size} elements using Quick Sort: {quick_sort_time:.6f} seconds")
+    #print(f"Time taken to sort {size} elements using Merge Sort: {merge_sort_time:.6f} seconds")
     print(f"Time taken to sort {size} elements using Heap Sort: {heap_sort_time:.6f} seconds")
 
 # Plotting
